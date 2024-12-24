@@ -118,11 +118,22 @@
     transition: 0.5s;
 }
 
+@media(max-width: 1500px) {
+    .sobre-sections {
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
 @media(max-width: 768px) {
     .sobre {
         gap: 80px;
         margin: 50px 70px;
         align-items: start;
+        width: 330px;
     }
 
     .sobre-title h1 {

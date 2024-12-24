@@ -26,23 +26,23 @@ function Sobre() {
 
                     <div className="sobre-skills">
                         <div className="sobre-skill">
-                            <p>HTML & CSS</p> <hr style={{width:"75%"}} />
+                            <p>HTML & CSS</p> <hr style={{width:"70%"}} />
                         </div>
 
                         <div className="sobre-skill">
-                            <p>React JS</p> <hr style={{width:"50%"}} />
+                            <p>React JS</p> <hr style={{width:"45%"}} />
                         </div>
 
                         <div className="sobre-skill">
-                            <p>JavaScript</p> <hr style={{width:"65%"}} />
+                            <p>JavaScript</p> <hr style={{width:"60%"}} />
                         </div>
 
                         <div className="sobre-skill">
-                            <p>Node JS</p> <hr style={{width:"35%"}} />
+                            <p>Node JS</p> <hr style={{width:"30%"}} />
                         </div>
 
                         <div className="sobre-skill">
-                            <p>MySQL</p> <hr style={{width:"40%"}} />
+                            <p>MySQL</p> <hr style={{width:"35%"}} />
                         </div>
                     </div>
                 </div>
