@@ -1,0 +1,146 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+    background-color: white;
+    padding: 20px;
+}
+
+.navbar ul li {
+    color: #201f1c;
+}
+
+.navbar .logo {
+    width: 170px;
+    height: 140px;
+}
+
+.nav-menu {
+ display: flex;
+ font-size: 20px;
+ gap: 60px;
+ align-items: center;
+}
+
+.nav-menu img {
+    width: 30px;
+}
+
+.nav-connect {
+    padding: 20px 40px;
+    border-radius: 50px;
+    background: linear-gradient(267deg, #ff3b3b 0.36%, #c9bc07 102.06%);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.nav-connect:hover {
+    transform: scale(1.05);
+}
+
+.nav-menu li {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav-menu li img {
+    display: flex;
+    margin-bottom: auto;
+    margin-left: 40%;
+}
+
+.nav-mob-open {
+    display: none;
+}
+
+.nav_container_cell {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .navbar {
+        background: none;
+    }
+
+    .navbar .logo {
+        border-radius: 10px;
+    }
+
+    .nav_container {
+        display: none;
+    }
+
+    .nav-connect {
+        display: none;
+
+    }
+
+    .nav_container_cell {
+        display: flex;
+        background-color: white;
+        padding: 30px;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        height: 100%;
+        left: -390px;
+        transition: 0.5s;
+    }
+
+    .nav-mob-open {
+        display: block;
+        position: fixed;
+        right: 30px;
+        font-size: 60px;
+        z-index: 1;
+        cursor: pointer;
+        top: 20px;
+        left: 50px;
+        color: rgb(255, 190, 69);
+        transition: 0.3s;
+    }
+
+    .nav-menu_cell {
+        list-style: none;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-top: 60px;
+        
+    }
+
+    .nav-menu_cell li {
+        font-size: 30px;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .nav-menu_cell li img {
+        width: 30px;
+        margin-left: 20px;
+    }
+
+}
+
+@media(max-width:1420px) {
+    .navbar {
+        background: none;
+    }
+
+    .navbar .logo {
+        border-radius: 10px;
+    }
+
+    .nav-connect {
+        margin-left: 10px;
+    }
+
+    .linka p {
+        color: white;
+    }
+  
+}
