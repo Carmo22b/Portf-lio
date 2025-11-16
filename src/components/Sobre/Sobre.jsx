@@ -30,7 +30,7 @@ function Sobre() {
                         </div>
 
                         <div className="sobre-skill">
-                            <p>React JS</p> <hr style={{width:"45%"}} />
+                            <p>React JS</p> <hr style={{width:"50%"}} />
                         </div>
 
                         <div className="sobre-skill">
@@ -42,7 +42,15 @@ function Sobre() {
                         </div>
 
                         <div className="sobre-skill">
-                            <p>MySQL</p> <hr style={{width:"35%"}} />
+                            <p>PHP</p> <hr style={{width:"55%"}} />
+                        </div>
+
+                        <div className="sobre-skill">
+                            <p>CakePHP</p> <hr style={{width:"50%"}} />
+                        </div>
+
+                        <div className="sobre-skill">
+                            <p>MySQL</p> <hr style={{width:"40%"}} />
                         </div>
                     </div>
                 </div>
@@ -50,7 +58,7 @@ function Sobre() {
 
             <div className="sobre-achievements">
                 <div className="sobre-achievement">
-                    <h1>1</h1>
+                    <h1>1+</h1>
 
                     <p>ANOS DE EXPERIÊNCIA</p>
                 </div>
