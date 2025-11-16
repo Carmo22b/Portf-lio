@@ -28,7 +28,7 @@ function Hero() {
             </h1>
 
             <p>
-                Conhecimentos em HTML5, CSS3, JavaScript, React, MySQL, PHP, CakePHP, Node.js e Git.
+                Conhecimentos em HTML5, CSS3, JavaScript, Git, React, MySQL e Node.js.
             </p>
 
             <div className="hero-action">
