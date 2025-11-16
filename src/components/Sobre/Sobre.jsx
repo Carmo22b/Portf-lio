@@ -19,7 +19,7 @@ function Sobre() {
 
                 <div className="sobre-right">
                     <div className="sobre-para">
-                        <p>Sou Carmo Lourenço, desenvolvedor apaixonado por tecnologia, comprometido com o aprendizado contínuo e a evolução profissional. Possuo uma base sólida em HTML5, CSS3, JavaScript e Git, além de conhecimentos em React, MySQL e Node.js. Estou constantemente aprimorando minhas habilidades para me tornar um desenvolvedor full-stack completo, apto a entregar soluções de excelência tanto no Front-end quanto no Back-end.</p>
+                        <p>Sou Carmo Lourenço, desenvolvedor apaixonado por tecnologia, comprometido com o aprendizado contínuo e a evolução profissional. Possuo uma base sólida em HTML5, CSS3, JavaScript, React, MySQL, Node.js, PHP, CakePHP e Git. Estou constantemente aprimorando minhas habilidades para me tornar um desenvolvedor full-stack completo, apto a entregar soluções de excelência tanto no Front-end quanto no Back-end.</p>
 
                         <p>Meu objetivo é atuar em projetos inovadores que resolvam problemas reais e criem impacto positivo, acompanhando as mais recentes tendências tecnológicas. Valorizo ambientes dinâmicos e desafiadores, onde possa colaborar, aprender e contribuir com soluções eficientes e de alto valor.</p>
                     </div>
@@ -30,7 +30,7 @@ function Sobre() {
                         </div>
 
                         <div className="sobre-skill">
-                            <p>React JS</p> <hr style={{width:"45%"}} />
+                            <p>React JS</p> <hr style={{width:"50%"}} />
                         </div>
 
                         <div className="sobre-skill">
@@ -42,7 +42,15 @@ function Sobre() {
                         </div>
 
                         <div className="sobre-skill">
-                            <p>MySQL</p> <hr style={{width:"35%"}} />
+                            <p>PHP</p> <hr style={{width:"55%"}} />
+                        </div>
+
+                        <div className="sobre-skill">
+                            <p>CakePHP</p> <hr style={{width:"50%"}} />
+                        </div>
+
+                        <div className="sobre-skill">
+                            <p>MySQL</p> <hr style={{width:"40%"}} />
                         </div>
                     </div>
                 </div>
@@ -50,7 +58,7 @@ function Sobre() {
 
             <div className="sobre-achievements">
                 <div className="sobre-achievement">
-                    <h1>1</h1>
+                    <h1>1+</h1>
 
                     <p>ANOS DE EXPERIÊNCIA</p>
                 </div>
