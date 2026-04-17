@@ -37,7 +37,7 @@ git clone https://github.com/Carmo22b/Portf-lio.git
 Acesse a pasta do projeto:
 
 ```bash
-cd Portf-lio
+cd projeto_postf
 ```
 
 Instale as dependências:
