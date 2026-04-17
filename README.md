@@ -1,8 +1,78 @@
-# React + Vite
+# Portfólio - Carmo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio desenvolvido com React, onde apresento meus projetos, habilidades e formas de contato.
+O objetivo é centralizar minhas experiências como desenvolvedor e facilitar o acesso ao meu trabalho.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
+
+* React
+* JavaScript
+* HTML5
+* CSS3
+
+---
+
+## Preview
+
+![Imagem](./public/captura.png)
+
+---
+
+## Acesse o projeto
+
+https://carmo22b.github.io/Portf-lio/
+
+---
+
+## Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Carmo22b/Portf-lio.git
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd Portf-lio
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Inicie o projeto:
+
+```bash
+npm start
+```
+
+---
+
+## Sobre mim
+
+Sou desenvolvedor, com foco em desenvolvimento web utilizando tecnologias como React, Node.js e CakePHP.
+Atualmente estou em busca de uma oportunidade na área de desenvolvimento para aplicar e evoluir meus conhecimentos.
+
+---
+
+## Melhorias futuras
+
+* Melhorar responsividade
+* Adicionar animações
+* Integrar com backend
+* Melhorar UI/UX
+
+---
+
+## Contato
+
+* GitHub: https://github.com/Carmo22b
+* Portfólio: https://carmo22b.github.io/Portf-lio/
+
+---
