@@ -58,7 +58,7 @@ function Sobre() {
 
             <div className="sobre-achievements">
                 <div className="sobre-achievement">
-                    <h1>1+</h1>
+                    <h1>2+</h1>
 
                     <p>ANOS DE EXPERIÊNCIA</p>
                 </div>

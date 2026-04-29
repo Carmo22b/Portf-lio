@@ -1,7 +1,7 @@
 import project1_img from "./imgs/Captura de Tela (93).png"
 import project2_img from "./imgs/Captura de Tela (91).png"
 import project3_img from "./imgs/Captura de Tela (90).png"
-import project4_img from "./imgs/Captura de Tela (89).png"
+import project4_img from "./imgs/Captura de Tela (119).png"
 // import project5_img from "./imgs/Captura de Tela (88).png"
 // import project6_img from "./imgs/Captura de Tela (87).png"
 import project7_img from "./imgs/Captura de Tela (86).png"
@@ -11,7 +11,7 @@ const MyWork_data = [
     {
         w_no: 1,
         w_img: project1_img,
-        w_url: "https://www.linkedin.com/feed/update/urn:li:activity:7265101809831055360/"
+        w_url: "https://github.com/Carmo22b/SistemaCadastro"
     },
     
     {
@@ -29,7 +29,7 @@ const MyWork_data = [
     {
         w_no: 4,
         w_img: project4_img,
-        w_url: "https://carmo22b.github.io/Lista-de-Tarefas/"
+        w_url: "https://github.com/Carmo22b/modaModela"
     },
 
     {

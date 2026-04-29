@@ -62,41 +62,65 @@
     border-color: #e0c007;
 }
 
-@media(max-width: 768px) {
+
+@media (max-width: 1200px) {
     .hero img {
-        margin-top: 120px;
-        width: 260px;
+        margin-top: 100px;
+        width: 180px;
     }
-
     .hero h1 {
-        margin-top: 50px;
+        margin-top: 40px;
         width: 90%;
-        font-size: 50px;
-
+        font-size: 54px;
     }
-
     .hero p {
-        width: 60%;
-        font-size: 18px;
+        width: 70%;
+        font-size: 20px;
         line-height: 32px;
         margin: 10px 0px;
     }
-
     .hero-action {
-        gap: 16px;
+        gap: 18px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .hero-connect, .hero-resume {
+        padding: 18px 32px;
+        border-radius: 40px;
         font-size: 18px;
-        font-weight: 500;
-        margin-bottom: 50px;
     }
+}
 
-    .hero-connect {
-        padding: 20px 30px;
-        border-radius: 40px;
-
+@media (max-width: 700px) {
+    .hero img {
+        margin-top: 60px;
+        width: 120px;
     }
-
-    .hero-resume {
-        padding: 20px 50px;
-        border-radius: 40px;
+    .hero h1 {
+        margin-top: 30px;
+        width: 98%;
+        font-size: 32px;
+    }
+    .hero p {
+        width: 95%;
+        font-size: 14px;
+        line-height: 22px;
+        margin: 8px 0px;
+    }
+    .hero-action {
+        gap: 10px;
+        font-size: 14px;
+        margin-bottom: 30px;
+        flex-direction: column;
+        width: 80%;
+        align-items: stretch;
+    }
+    .hero-connect, .hero-resume {
+        padding: 12px 10px;
+        border-radius: 30px;
+        font-size: 14px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
     }
 }

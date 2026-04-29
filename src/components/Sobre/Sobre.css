@@ -118,77 +118,76 @@
     transition: 0.5s;
 }
 
-@media(max-width: 1500px) {
-    .sobre-sections {
-        display: flex;
-        gap: 80px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 
+@media (max-width: 1500px) {
+    .sobre {
+        margin: 60px 40px;
+    }
+    .sobre-sections {
+        gap: 40px;
+    }
 }
 
-@media(max-width: 768px) {
+
+@media (max-width: 900px) {
     .sobre {
-        gap: 80px;
-        margin: 50px 70px;
-        align-items: start;
-        width: 330px;
+        margin: 40px 10px;
+        gap: 40px;
+        width: 100%;
+        align-items: center;
     }
-
     .sobre-title h1 {
-        font-size: 50px;
-        padding: 0;
+        font-size: 38px;
+        padding: 0 10px;
     }
-
     .sobre-title img {
-        width: 130px;
-        right: -20px;
+        width: 90px;
+        right: -10px;
     }
-
     .sobre-sections {
         flex-direction: column;
+        gap: 30px;
+        align-items: center;
     }
-
     .sobre-left {
         display: none;
     }
-
+    .sobre-right {
+        gap: 40px;
+        min-width: unset;
+        max-width: 89%;
+    }
     .sobre-para {
-        font-size: 18px;
-        line-height: 32px;
-    }
-
-    .sobre-skill {
-        gap: 20px;
-        align-items: center;
-    }
-
-    .sobre-skill p {
-        font-size: 20px;
-
-    }
-
-    .sobre-skill hr {
-        height: 6px;
-    }
-
-    .sobre-achievements {
-        justify-content: space-between;
-
-    }
-
-    .sobre-achievement {
-        gap: 10px;
-    }
-
-    .sobre-achievement h1 {
-        font-size: 34px;
-        font-weight: 700;
-    }
-
-    .sobre-achievement p {
         font-size: 16px;
+        line-height: 28px;
+    }
+    .sobre-skills {
+        width: 334px;
+    }
+    .sobre-skill {
+        gap: 12px;
+    }
+    .sobre-skill p {
+        font-size: 16px;
+        min-width: 80px;
+    }
+    .sobre-skill hr {
+        height: 5px;
+        min-width: 30px;
+    }
+    .sobre-achievements {
+        gap: 10px;
+        margin-bottom: 40px;
+        width: 380px;
+    }
+    .sobre-achievement {
+        gap: 6px;
+    }
+    .sobre-achievement h1 {
+        font-size: 22px;
+    }
+    .sobre-achievement p {
+        font-size: 12px;
         text-align: center;
     }
 }
